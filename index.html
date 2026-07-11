@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/boxes.css">
     <link rel="stylesheet" href="css/bullets.css">
+    <link rel="stylesheet" href="css/interactive.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +18,11 @@
 </head>
 
 <body>
-
+    
+    <button class="top-button" onclick="backToMainPage()">
+        Back to Website
+    </button>
+    
     <div class="layout">
 
         <aside class="sidebar">
@@ -60,18 +65,6 @@
                     </a>
                 </div>
 
-                <div class="nav-group">
-
-                    <div class="nav-title">
-                        Others
-                    </div>
-
-                    <a class="nav-link" data-page="pages/faq.html">
-                        FAQ
-                    </a>
-
-                </div>
-
             </nav>
 
         </aside>
@@ -87,7 +80,8 @@
             <footer>
                 FH Development 2026 © All Rights Reserved
                 <br>
-                Made with ❤️ in Lincolnshire and New Delhi
+                Made with ❤️ in Lincolnshire and New Delhi <br>
+                <iframe src="https://status.fh-development.xyz/badge?theme=light" width="250" height="30" frameborder="0" scrolling="no" style="color-scheme: normal; display: block; margin-left: auto;;"></iframe>
             </footer>
 
         </div>
@@ -95,6 +89,7 @@
     </div>
 
     <script src="js/app.js"></script>
+    <script src="js/interactive.js"></script>
 
 </body>
 

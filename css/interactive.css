@@ -1,0 +1,20 @@
+.top-button {
+    background-color: #1a9ce2;
+    color: white;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.top-button:active {
+    background-color: #157ab8;
+}
+
+.top-button:hover {
+    background-color: #157ab8;
+}
