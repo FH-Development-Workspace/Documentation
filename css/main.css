@@ -58,7 +58,6 @@ h1 {
 
 .sidebar {
     width: 240px;
-    /* Bottom-left → top-right */
     background: linear-gradient(45deg,
             rgb(1, 76, 129),
             #0695fc);
@@ -164,17 +163,17 @@ footer {
 }
 
 .hero-banner {
+    text-align: center;
+    display: block;
+    margin: auto;
     width: 100%;
     max-width: 900px;
     margin-bottom: 40px;
     border-radius: 20px;
     overflow: hidden;
 
-    box-shadow:
-        0 10px 25px rgba(1, 76, 129, 0.15),
-        0 4px 10px rgba(0, 0, 0, 0.08);
+    border: 2px solid rgba(1, 76, 129, 0.08);
 
-    border: 1px solid rgba(1, 76, 129, 0.08);
 }
 
 .hero-banner img {
